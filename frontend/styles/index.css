@@ -24,3 +24,10 @@ h1{
 h1{
 	font-family: 'Raleway', sans-serif;
 }
+.header{
+	background: yellow;
+}
+.texto{
+	color: white;
+	font-size: 27px;
+}
