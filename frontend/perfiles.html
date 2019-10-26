@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/perfiles.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <title>Perfiles</title>
+</head>
+
+<body>
+        <div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-info ">
+                        <a class="  texto" href="#">Safetheme </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                    
+
+                <div class="d-flex justify-content-start">
+                    <div class="card" id="perfilcard" style="width: 18rem;">
+                        <img src="../frontend/img/persona1.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+
+                            <p class="card-text"><b>Nombre: </b> Menganito
+                                <br>
+                                <b>Dirección: </b> ??????????
+                                <br>
+                                <b>Telefono: </b> 1123456
+                                <br>
+                                <b>Rasgos particuales: </b>
+                                <ul>
+                                    <li>
+                                        <b>Cabello: </b> negro
+
+                                    </li>
+                                    <li>
+                                        <b>Estatura: </b> 123cm
+
+                                    </li>
+                                    <li><b>Complexion:</b> delgada</li>
+                                </ul>
+                                <b>Edad: </b> 123 años
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col">
+                <div style="width: 640px; height: 480px; margin-top: 60px;" id="mapContainer"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // Initialize the platform object:
+        var platform = new H.service.Platform({
+            'apikey': '0T21Z1EDurH99rkxREGzfyFTnvJQdLpl4igVBjFCPpI'
+        });
+
+        // Retrieve the target element for the map:
+        // var targetElement = document.getElementById('mapContainer');
+
+        // // Get the default map types from the platform object:
+        // var defaultLayers = platform.createDefaultLayers();
+
+        // // Instantiate the map:
+        // var map = new H.Map(
+        //     document.getElementById('mapContainer'),
+        //     defaultLayers.vector.normal.map, {
+        //         zoom: 55,
+        //         center: {
+        //             lat: 178.51,
+        //             lng: 13.4
+        //         }
+        //     });
+        // // Create the parameters for the routing request:
+        // var routingParameters = {
+        //     // The routing mode:
+        //     'mode': 'fastest;car',
+        //     // The start point of the route:
+        //     'waypoint0': 'geo!50.1120423728813,8.68340740740811',
+        //     // The end point of the route:
+        //     'waypoint1': 'geo!52.5309916298853,13.3846220493377',
+        //     // To retrieve the shape of the route we choose the route
+        //     // representation mode 'display'
+        //     'representation': 'display'
+        // };
+
+        // // Define a callback function to process the routing response:
+        // var onResult = function(result) {
+        //     var route,
+        //         routeShape,
+        //         startPoint,
+        //         endPoint,
+        //         linestring;
+        //     if (result.response.route) {
+        //         // Pick the first route from the response:
+        //         route = result.response.route[0];
+        //         // Pick the route's shape:
+        //         routeShape = route.shape;
+
+        //         // Create a linestring to use as a point source for the route line
+        //         linestring = new H.geo.LineString();
+
+        //         // Push all the points in the shape into the linestring:
+        //         routeShape.forEach(function(point) {
+        //             var parts = point.split(',');
+        //             linestring.pushLatLngAlt(parts[0], parts[1]);
+        //         });
+
+        //         // Retrieve the mapped positions of the requested waypoints:
+        //         startPoint = route.waypoint[0].mappedPosition;
+        //         endPoint = route.waypoint[1].mappedPosition;
+
+        //         // Create a polyline to display the route:
+        //         var routeLine = new H.map.Polyline(linestring, {
+        //             style: {
+        //                 strokeColor: 'red',
+        //                 lineWidth: 3
+        //             }
+        //         });
+
+        //         // Create a marker for the start point:
+        //         var startMarker = new H.map.Marker({
+        //             lat: startPoint.latitude,
+        //             lng: startPoint.longitude
+        //         });
+
+        //         // Create a marker for the end point:
+        //         var endMarker = new H.map.Marker({
+        //             lat: endPoint.latitude,
+        //             lng: endPoint.longitude
+        //         });
+
+        //         // Add the route polyline and the two markers to the map:
+        //         map.addObjects([routeLine, startMarker, endMarker]);
+
+        //         // Set the map's viewport to make the whole route visible:
+        //         map.getViewModel().setLookAtData({
+        //             bounds: routeLine.getBoundingBox()
+        //         });
+        //     }
+        // };
+
+        // // Get an instance of the routing service:
+        // var router = platform.getRoutingService();
+
+        // // Call calculateRoute() with the routing parameters,
+        // // the callback and an error callback function (called if a
+        // // communication error occurs):
+        // router.calculateRoute(routingParameters, onResult,
+        //     function(error) {
+        //         alert(error.message);
+        //     });
+
+
+
+
+
+
+        // Retrieve the target element for the map:
+        var targetElement = document.getElementById('mapContainer');
+
+        // Get default map types from the platform object:
+        var defaultLayers = platform.createDefaultLayers();
+
+        // Instantiate the map:
+        var map = new H.Map(
+            document.getElementById('mapContainer'),
+            defaultLayers.vector.normal.map, {
+                zoom: 10,
+                center: {
+                    lat: 52.51,
+                    lng: 13.4
+                }
+            });
+
+        // Create the parameters for the geocoding request:
+        var geocodingParams = {
+            searchText: '200 S Mathilda Ave, Sunnyvale, CA'
+        };
+
+        // Define a callback function to process the geocoding response:
+        var onResult = function(result) {
+            var locations = result.Response.View[0].Result,
+                position,
+                marker;
+            // Add a marker for each location found
+            for (i = 0; i < locations.length; i++) {
+                position = {
+                    lat: locations[i].Location.DisplayPosition.Latitude,
+                    lng: locations[i].Location.DisplayPosition.Longitude
+                };
+                marker = new H.map.Marker(position);
+                map.addObject(marker);
+            }
+        };
+
+        // Get an instance of the geocoding service:
+        var geocoder = platform.getGeocodingService();
+
+        // Call the geocode method with the geocoding parameters,
+        // the callback and an error callback function (called if a
+        // communication error occurs):
+        geocoder.geocode(geocodingParams, onResult, function(e) {
+            alert(e);
+        });
+    </script>
+
+
+</body>
+
+</html>
