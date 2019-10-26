@@ -1,0 +1,26 @@
+body{
+	background: 59cdb8;
+}
+h1{
+	text-align: center;
+}
+/*.boton{
+	display: flex;
+	justify-content: center;
+}*/
+
+.boton{
+	text-align: center;
+}
+.margen{
+	margin-top: 15px; 
+}
+.fondo{
+	background: url(../img/personas.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+}
