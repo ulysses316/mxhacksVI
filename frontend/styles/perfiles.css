@@ -5,3 +5,10 @@ body{
 #perfilcard {
     margin: 50px;
 }
+#formulario {
+    margin-top: 30px;
+}
+.texto{
+	color: white;
+	font-size: 27px;
+}
