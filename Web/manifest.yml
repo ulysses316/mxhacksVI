@@ -1,0 +1,5 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/php-buildpack
+  name: Encuentrame
+  memory: 56M

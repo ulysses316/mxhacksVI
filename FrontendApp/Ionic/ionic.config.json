@@ -1,7 +1,0 @@
-{
-  "name": "Ionic",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}
