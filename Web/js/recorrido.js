@@ -13,38 +13,42 @@ function initMap() {
     var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
     var delegacion = [{
-            name: "CUH"
+            name: "TLP - sin movimiento"
         },
         {
-            name: "AOB"
+            name: "COY - sin movimiento"
         },
         {
-            name: "COY"
+            name: "AOB - sin movimiento"
         },
         {
-            name: "TLP"
+            name: "CUH - MOV - persona 1 y 2"
         }
+
     ];
 
     var features = [
 
         {
-            // cuah
-            position: new google.maps.LatLng(19.4403582, -99.1537393),
-            type: 'parking'
-        }, {
-            // Alvaro obregon
-            position: new google.maps.LatLng(19.358721, -99.188757),
-            type: 'parking'
-        }, {
-            // Coyoacan
-            position: new google.maps.LatLng(19.3297952, -99.1629129),
-            type: 'parking'
-        }, {
             // tlalpan
             position: new google.maps.LatLng(19.2492593, -99.1273761),
             type: 'parking'
         },
+        {
+            // Coyoacan
+            position: new google.maps.LatLng(19.3297952, -99.1629129),
+            type: 'parking'
+        },
+        {
+            // Alvaro obregon
+            position: new google.maps.LatLng(19.358721, -99.188757),
+            type: 'parking'
+        },
+        {
+            // cuah
+            position: new google.maps.LatLng(19.4181947, -99.1596791),
+            type: 'parking'
+        }
 
     ];
 
@@ -71,6 +75,6 @@ display_marker = function(pos, i, mapita, name) {
                 map: mapita,
             });
 
-        }, i * 1000);
+        }, i * 3000);
 
 }
