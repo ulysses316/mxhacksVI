@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/new-task']">
+        <ion-icon slot="icon-only" name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Mensajes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+      <form #employeeForm="ngForm" (ngSubmit)="addEmployee(employeeForm)">
+        <input type="hidden" name="_id" #_id="ngModel" [(ngModel)]="employeeService.selectedEmployee._id">
+        <ion-item>
+          <ion-label position="stacked">Nombre:</ion-label>
+          <ion-input type="text" name="name" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.name" placeholder="Enter your FullName"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="stacked">Puesto:</ion-label>
+            <ion-input type="text" name="position" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.position" placeholder="Enter your Position"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="stacked">Empresa:</ion-label>
+            <ion-input type="text" name="office" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.office" placeholder="Enter your Office"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="stacked">Salario:</ion-label>
+            <ion-input type="text" name="salary" #name="ngModel" [(ngModel)]="employeeService.selectedEmployee.salary" value="0" placeholder="Enter your Salary"></ion-input>
+        </ion-item>
+        <ion-button class="submit-btn" expand="block" fill="solid" type="submit">Guardar</ion-button>
+        <ion-button class="submit-btn" expand="block" fill="solid" (click)="resetForm(employeeForm)">Limpiar</ion-button>
+      </form>
+    </ion-card>
+    <ion-item *ngFor="let employee of employeeService.employees">
+        <ion-avatar slot="start">
+          <img src="../../../assets/imgs/thumbal.jpg">
+        </ion-avatar>
+        <ion-label>
+          {{ employee.name }}
+        </ion-label>
+        <p>{{ employee.position }}</p>
+        <p>{{ employee.office }}</p>
+        <a (click)="editEmployee(employee)">
+            <i class="material-icons">edit</i>
+          </a>
+          <a (click)="deleteEmployeeAlert(employee._id, employeeForm)">
+            <i class="material-icons">delete</i>
+          </a>
+    </ion-item>
+</ion-content>
