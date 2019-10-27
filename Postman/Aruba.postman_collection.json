@@ -1,0 +1,266 @@
+{
+	"info": {
+		"_postman_id": "6044291f-b578-44a2-bce1-edc6d249b338",
+		"name": "Aruba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Tenants",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aruba.easygetpaid.com/hackathon/tenants",
+					"protocol": "https",
+					"host": [
+						"aruba",
+						"easygetpaid",
+						"com"
+					],
+					"path": [
+						"hackathon",
+						"tenants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TenantsById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aruba.easygetpaid.com/hackathon/tenants/eda39e92559043d1b7c2f583d9dab55e",
+					"protocol": "https",
+					"host": [
+						"aruba",
+						"easygetpaid",
+						"com"
+					],
+					"path": [
+						"hackathon",
+						"tenants",
+						"eda39e92559043d1b7c2f583d9dab55e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAccesPoints",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aruba.easygetpaid.com/hackathon/tenants/08ae8b61c0a048ef9bb14d7ae5db4a7c/ap",
+					"protocol": "https",
+					"host": [
+						"aruba",
+						"easygetpaid",
+						"com"
+					],
+					"path": [
+						"hackathon",
+						"tenants",
+						"08ae8b61c0a048ef9bb14d7ae5db4a7c",
+						"ap"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAccesPiontBySerial",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aruba.easygetpaid.com/hackathon/tenants/eda39e92559043d1b7c2f583d9dab55e/ap/CNH8JSW86X",
+					"protocol": "https",
+					"host": [
+						"aruba",
+						"easygetpaid",
+						"com"
+					],
+					"path": [
+						"hackathon",
+						"tenants",
+						"eda39e92559043d1b7c2f583d9dab55e",
+						"ap",
+						"CNH8JSW86X"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AccesPointDetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aruba.easygetpaid.com/hackathon/tenants/eda39e92559043d1b7c2f583d9dab55e/ap/CNH8JSW86X/detail",
+					"protocol": "https",
+					"host": [
+						"aruba",
+						"easygetpaid",
+						"com"
+					],
+					"path": [
+						"hackathon",
+						"tenants",
+						"eda39e92559043d1b7c2f583d9dab55e",
+						"ap",
+						"CNH8JSW86X",
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSites",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aruba.easygetpaid.com/hackathon/tenants/08ae8b61c0a048ef9bb14d7ae5db4a7c/sites",
+					"protocol": "https",
+					"host": [
+						"aruba",
+						"easygetpaid",
+						"com"
+					],
+					"path": [
+						"hackathon",
+						"tenants",
+						"08ae8b61c0a048ef9bb14d7ae5db4a7c",
+						"sites"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SitesByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aruba.easygetpaid.com/hackathon/tenants/eda39e92559043d1b7c2f583d9dab55e/sites/CO-03269",
+					"protocol": "https",
+					"host": [
+						"aruba",
+						"easygetpaid",
+						"com"
+					],
+					"path": [
+						"hackathon",
+						"tenants",
+						"eda39e92559043d1b7c2f583d9dab55e",
+						"sites",
+						"CO-03269"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clients",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aruba.easygetpaid.com/hackathon/tenants/08ae8b61c0a048ef9bb14d7ae5db4a7c/clients",
+					"protocol": "https",
+					"host": [
+						"aruba",
+						"easygetpaid",
+						"com"
+					],
+					"path": [
+						"hackathon",
+						"tenants",
+						"08ae8b61c0a048ef9bb14d7ae5db4a7c",
+						"clients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ClientByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aruba.easygetpaid.com/hackathon/tenants/08ae8b61c0a048ef9bb14d7ae5db4a7c/clients/android-63efd7675562b163",
+					"protocol": "https",
+					"host": [
+						"aruba",
+						"easygetpaid",
+						"com"
+					],
+					"path": [
+						"hackathon",
+						"tenants",
+						"08ae8b61c0a048ef9bb14d7ae5db4a7c",
+						"clients",
+						"android-63efd7675562b163"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Wlan -- Nada Importante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aruba.easygetpaid.com/hackathon/tenants/eda39e92559043d1b7c2f583d9dab55e/wlan",
+					"protocol": "https",
+					"host": [
+						"aruba",
+						"easygetpaid",
+						"com"
+					],
+					"path": [
+						"hackathon",
+						"tenants",
+						"eda39e92559043d1b7c2f583d9dab55e",
+						"wlan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WlanByName -- Nada Importante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aruba.easygetpaid.com/hackathon/tenants/eda39e92559043d1b7c2f583d9dab55e/wlan/CDMX%20C5%20WiFi",
+					"protocol": "https",
+					"host": [
+						"aruba",
+						"easygetpaid",
+						"com"
+					],
+					"path": [
+						"hackathon",
+						"tenants",
+						"eda39e92559043d1b7c2f583d9dab55e",
+						"wlan",
+						"CDMX%20C5%20WiFi"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,9 @@
+body{
+    background: url(../img/fondo.jpg)
+}
+#gente {
+    margin: 50px;
+}
+.texto{
+	color: white;
+	font-size: 27px;
