@@ -1,0 +1,17 @@
+[{
+    "associated_device": "CNG7JSW0RT",
+    "connection": "802.11GN",
+    "encryption_method": "Open",
+    "group_name": "default",
+    "ip_address": "10.10.100.130",
+    "macaddr": "c0:9a:d0:9f:7e:2c",
+    "manufacturer": "EQUIP'TRANS",
+    "name": "android-63efd7675562b163",
+    "network": "Gratis_CDMX_C5",
+    "os_type": "Linux",
+    "radio_mac": "00:4e:35:05:a3:00",
+    "radio_number": 1,
+    "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
+    "username": "UIp62CkMRSyMQI7rSZk",
+    "vlan": 101
+}]

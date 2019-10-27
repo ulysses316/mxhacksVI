@@ -1,10 +1,10 @@
 [{
-        "associated_device": "CNH8JSW15Z",
+        "associated_device": "CNH4JSW00J",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -16,12 +16,12 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNGVJSW0K1",
+        "associated_device": "CNG7JSW0SX",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -33,12 +33,12 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH8JSW15Z",
+        "associated_device": "CNFTJSW1MP",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -50,12 +50,12 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH8JSW5YY",
+        "associated_device": "CNH4JSWJWD",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -67,12 +67,12 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH8JSW43N",
+        "associated_device": "CNG7JSW0SX",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -84,12 +84,12 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH4JSW02Q",
+        "associated_device": "CNG7JSW0SX",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -101,12 +101,12 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH8JSW8HD",
+        "associated_device": "CNH8JSW61N",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -118,12 +118,12 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH4JSW1M0",
+        "associated_device": "CNH4JSW0WJ",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -135,12 +135,12 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH8JSW29J",
+        "associated_device": "CNH4JSWN51",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -152,12 +152,12 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH8JSW43N",
+        "associated_device": "CNG7JSW1P7",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -169,12 +169,12 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH8JSW9ZS",
+        "associated_device": "CNH8JSW8XM",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -186,12 +186,12 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNGVJSW06D",
+        "associated_device": "CNH8JSW61N",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
         "ip_address": "10.10.100.130",
-        "macaddr": "a8:db:03:01:60:73",
+        "macaddr": "d8:1c:79:67:83:3c",
         "manufacturer": "EQUIP'TRANS",
         "name": "android-63efd7675562b163",
         "network": "Gratis_CDMX_C5",
@@ -201,8 +201,9 @@
         "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
         "username": "UIp62CkMRSyMQI7rSZk",
         "vlan": 101
-    }, {
-        "associated_device": "CNGVJSW0RS",
+    },
+    {
+        "associated_device": "CNH8JSWBD4",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
@@ -219,7 +220,7 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH8JSW56L",
+        "associated_device": "CNG1JSW1CD",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
@@ -236,7 +237,7 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH4JSWLVC",
+        "associated_device": "CNH8JSWBJQ",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
@@ -253,7 +254,7 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH4JSW1RD",
+        "associated_device": "CNH8JSW999",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
@@ -270,7 +271,7 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH4JSW0Z8",
+        "associated_device": "CNH8JSW25W",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
@@ -287,7 +288,7 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH8JSW8CG",
+        "associated_device": "CNH8JSW0ZF",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
@@ -304,7 +305,7 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH8JSW92J",
+        "associated_device": "CNG7JSW32M",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
@@ -321,7 +322,7 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNGVJSW0TQ",
+        "associated_device": "CNH8JSW0ZF",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
@@ -338,7 +339,7 @@
         "vlan": 101
     },
     {
-        "associated_device": "CNH8JSW2SM",
+        "associated_device": "CNGVJSW02K",
         "connection": "802.11GN",
         "encryption_method": "Open",
         "group_name": "default",
@@ -354,4 +355,174 @@
         "username": "UIp62CkMRSyMQI7rSZk",
         "vlan": 101
     },
+    {
+        "associated_device": "CNH4JSWJY0",
+        "connection": "802.11GN",
+        "encryption_method": "Open",
+        "group_name": "default",
+        "ip_address": "10.10.100.130",
+        "macaddr": "30:07:4d:84:02:a0",
+        "manufacturer": "EQUIP'TRANS",
+        "name": "android-63efd7675562b163",
+        "network": "Gratis_CDMX_C5",
+        "os_type": "Linux",
+        "radio_mac": "00:4e:35:05:a3:00",
+        "radio_number": 1,
+        "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
+        "username": "UIp62CkMRSyMQI7rSZk",
+        "vlan": 101
+    },
+    {
+        "associated_device": "CNH8JSW37T",
+        "connection": "802.11GN",
+        "encryption_method": "Open",
+        "group_name": "default",
+        "ip_address": "10.10.100.130",
+        "macaddr": "30:07:4d:84:02:a0",
+        "manufacturer": "EQUIP'TRANS",
+        "name": "android-63efd7675562b163",
+        "network": "Gratis_CDMX_C5",
+        "os_type": "Linux",
+        "radio_mac": "00:4e:35:05:a3:00",
+        "radio_number": 1,
+        "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
+        "username": "UIp62CkMRSyMQI7rSZk",
+        "vlan": 101
+    },
+    {
+        "associated_device": "CNH8JSWBD4",
+        "connection": "802.11GN",
+        "encryption_method": "Open",
+        "group_name": "default",
+        "ip_address": "10.10.100.130",
+        "macaddr": "30:07:4d:84:02:a0",
+        "manufacturer": "EQUIP'TRANS",
+        "name": "android-63efd7675562b163",
+        "network": "Gratis_CDMX_C5",
+        "os_type": "Linux",
+        "radio_mac": "00:4e:35:05:a3:00",
+        "radio_number": 1,
+        "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
+        "username": "UIp62CkMRSyMQI7rSZk",
+        "vlan": 101
+    },
+    {
+        "associated_device": "CNH2JSW76R",
+        "connection": "802.11GN",
+        "encryption_method": "Open",
+        "group_name": "default",
+        "ip_address": "10.10.100.130",
+        "macaddr": "30:07:4d:84:02:a0",
+        "manufacturer": "EQUIP'TRANS",
+        "name": "android-63efd7675562b163",
+        "network": "Gratis_CDMX_C5",
+        "os_type": "Linux",
+        "radio_mac": "00:4e:35:05:a3:00",
+        "radio_number": 1,
+        "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
+        "username": "UIp62CkMRSyMQI7rSZk",
+        "vlan": 101
+    },
+    {
+        "associated_device": "CNH8JSW7W6",
+        "connection": "802.11GN",
+        "encryption_method": "Open",
+        "group_name": "default",
+        "ip_address": "10.10.100.130",
+        "macaddr": "30:07:4d:84:02:a0",
+        "manufacturer": "EQUIP'TRANS",
+        "name": "android-63efd7675562b163",
+        "network": "Gratis_CDMX_C5",
+        "os_type": "Linux",
+        "radio_mac": "00:4e:35:05:a3:00",
+        "radio_number": 1,
+        "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
+        "username": "UIp62CkMRSyMQI7rSZk",
+        "vlan": 101
+    },
+    {
+        "associated_device": "CNG1JSW1CD",
+        "connection": "802.11GN",
+        "encryption_method": "Open",
+        "group_name": "default",
+        "ip_address": "10.10.100.130",
+        "macaddr": "30:07:4d:84:02:a0",
+        "manufacturer": "EQUIP'TRANS",
+        "name": "android-63efd7675562b163",
+        "network": "Gratis_CDMX_C5",
+        "os_type": "Linux",
+        "radio_mac": "00:4e:35:05:a3:00",
+        "radio_number": 1,
+        "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
+        "username": "UIp62CkMRSyMQI7rSZk",
+        "vlan": 101
+    },
+    {
+        "associated_device": "CNG1JSW1CD",
+        "connection": "802.11GN",
+        "encryption_method": "Open",
+        "group_name": "default",
+        "ip_address": "10.10.100.130",
+        "macaddr": "30:07:4d:84:02:a0",
+        "manufacturer": "EQUIP'TRANS",
+        "name": "android-63efd7675562b163",
+        "network": "Gratis_CDMX_C5",
+        "os_type": "Linux",
+        "radio_mac": "00:4e:35:05:a3:00",
+        "radio_number": 1,
+        "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
+        "username": "UIp62CkMRSyMQI7rSZk",
+        "vlan": 101
+    },
+    {
+        "associated_device": "CNH8JSWBJQ",
+        "connection": "802.11GN",
+        "encryption_method": "Open",
+        "group_name": "default",
+        "ip_address": "10.10.100.130",
+        "macaddr": "30:07:4d:84:02:a0",
+        "manufacturer": "EQUIP'TRANS",
+        "name": "android-63efd7675562b163",
+        "network": "Gratis_CDMX_C5",
+        "os_type": "Linux",
+        "radio_mac": "00:4e:35:05:a3:00",
+        "radio_number": 1,
+        "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
+        "username": "UIp62CkMRSyMQI7rSZk",
+        "vlan": 101
+    },
+    {
+        "associated_device": "CNG7JSW1SX",
+        "connection": "802.11GN",
+        "encryption_method": "Open",
+        "group_name": "default",
+        "ip_address": "10.10.100.130",
+        "macaddr": "30:07:4d:84:02:a0",
+        "manufacturer": "EQUIP'TRANS",
+        "name": "android-63efd7675562b163",
+        "network": "Gratis_CDMX_C5",
+        "os_type": "Linux",
+        "radio_mac": "00:4e:35:05:a3:00",
+        "radio_number": 1,
+        "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
+        "username": "UIp62CkMRSyMQI7rSZk",
+        "vlan": 101
+    },
+    {
+        "associated_device": "CNH8JSW913",
+        "connection": "802.11GN",
+        "encryption_method": "Open",
+        "group_name": "default",
+        "ip_address": "10.10.100.130",
+        "macaddr": "30:07:4d:84:02:a0",
+        "manufacturer": "EQUIP'TRANS",
+        "name": "android-63efd7675562b163",
+        "network": "Gratis_CDMX_C5",
+        "os_type": "Linux",
+        "radio_mac": "00:4e:35:05:a3:00",
+        "radio_number": 1,
+        "swarm_id": "d125ad4d01964eea8681b547910d7b50441284c32f326cc63b",
+        "username": "UIp62CkMRSyMQI7rSZk",
+        "vlan": 101
+    }
 ]
