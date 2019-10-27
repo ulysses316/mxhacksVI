@@ -2,44 +2,48 @@
 var platform = new H.service.Platform({
     'apikey': '0T21Z1EDurH99rkxREGzfyFTnvJQdLpl4igVBjFCPpI'
 });
+
 // Retrieve the target element for the map:
-var targetElement = document.getElementById('mapContainerr');
+var targetElement = document.getElementById('mapContainer');
 
 // Get default map types from the platform object:
 var defaultLayers = platform.createDefaultLayers();
 
 // Instantiate the map:
 var map = new H.Map(
-    document.getElementById('mapContainerr'),
+    document.getElementById('mapContainer'),
     defaultLayers.vector.normal.map, {
-        zoom: 10,
-        center: { lat: 52.51, lng: 13.4 }
+        zoom: 17,
+        center: { lat: 19.314618, lng: -99.173476 }
     });
 
-// Create the parameters for the landmark search request:
-var landmarkSearchParameters = {
-    searchText: 'ORD'
+// Create the parameters for the geocoding request:
+var geocodingParams = {
+    searchText: 'Av. Antonio Delfín Madrigal 73'
 };
 
-// Define a callback function to process the search response:
-function onSuccess(result) {
-    var location = result.Response.View[0].Result[0].Place.Locations[0];
-
-    // Create an info bubble at the retrieved location with the
-    // location's name as contents:
-    ui.addBubble(new H.ui.InfoBubble({
-        lat: location.DisplayPosition.Latitude,
-        lng: location.DisplayPosition.Longitude
-    }, { content: location.Name }));
+// Define a callback function to process the geocoding response:
+var onResult = function(result) {
+    var locations = result.Response.View[0].Result,
+        position,
+        marker;
+    // Add a marker for each location found
+    for (i = 0; i < locations.length; i++) {
+        position = {
+            lat: locations[i].Location.DisplayPosition.Latitude,
+            lng: locations[i].Location.DisplayPosition.Longitude
+        };
+        marker = new H.map.Marker(position);
+        map.addObject(marker);
+    }
 };
-
 
 // Get an instance of the geocoding service:
 var geocoder = platform.getGeocodingService();
 
-// Call the geocode method with the search parameters,
+// Call the geocode method with the geocoding parameters,
 // the callback and an error callback function (called if a
 // communication error occurs):
-geocoder.search(landmarkSearchParameters, onSuccess, function(e) {
+geocoder.geocode(geocodingParams, onResult, function(e) {
     alert(e);
 });
